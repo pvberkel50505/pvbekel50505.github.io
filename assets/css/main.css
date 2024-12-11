@@ -726,6 +726,19 @@ input, select, textarea {
 				width: 100%;
 			}
 
+		.image.avatar {
+			border-radius: 100%;
+		}
+
+		.image.avatar:before {
+			display: none;
+		}
+
+		.image.avatar img {
+			border-radius: 25px;
+			width: 100%;
+		}
+
 		@media screen and (max-width: 1024px) {
 
 			.image.main {
@@ -1325,6 +1338,15 @@ input, select, textarea {
 				font-size: 2rem;
 			}
 
+		#header .biglogo {
+			width: 25rem;
+			height: 7.5rem;
+			line-height: 11rem;
+			border: solid 1px #ffffff;
+			border-right-width: 0px;
+			border-left-width: 0px;
+		}
+		
 		#header .content {
 			border-style: solid;
 			border-color: #ffffff;
