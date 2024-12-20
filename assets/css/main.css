@@ -73,6 +73,19 @@ input, select, textarea {
 }
 
 /* Basic */
+	.float-right {
+		float: right; 
+	}
+
+	.margin-right {
+		margin-right: 3.4rem;
+	}
+
+	.lower-case {
+		text-transform: lowercase;
+		font-weight: initial;
+	}
+
 	.grid-wrapper {
 		display: flex;
 		flex-wrap: wrap;
